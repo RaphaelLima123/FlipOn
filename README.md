@@ -8,6 +8,15 @@ Projeto vaga de estágio
 3. python -m venv venv
 4. source venv/bin/activate
 
+## Se você estiver no Windows ao invés dos comandos acima utilizar:
+
+1. mkdir project
+2. cd project
+3. python -m venv venv
+4. cd venv/scripts
+5. ./activate
+6. cd ../..
+
 ## Criar um diretório raiz e clonar o repositório:
 1. mkdir src
 2. cd src
