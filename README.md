@@ -20,7 +20,7 @@ Projeto vaga de estágio
 ## Criar um diretório raiz e clonar o repositório:
 1. mkdir src
 2. cd src
-3. git clone https://github.com/RaphaelLima123/FlipOn.git
+3. git clone https://github.com/RaphaelLima123/FlipOn.git .
 
 ## Instalar as dependências:
 1. pip install -r requirements/local.txt
