@@ -1,30 +1,57 @@
 # FlipOn
 Projeto vaga de estágio
 
+## Usuário Linux
 ## Criar um diretório para o projeto e instalar um ambiente virtual pyhton dentro:
+```
+mkdir project
+cd project
+python3 -m venv venv
+source venv/bin/activate
+```
 
-1. mkdir project
-2. cd project
-3. python -m venv venv
-4. source venv/bin/activate
-
-## Se você estiver no Windows ao invés dos comandos acima utilizar:
-
-1. mkdir project
-2. cd project
-3. python -m venv venv
-4. cd venv/scripts
-5. ./activate
-6. cd ../..
 
 ## Criar um diretório raiz e clonar o repositório:
-1. mkdir src
-2. cd src
-3. git clone https://github.com/RaphaelLima123/FlipOn.git .
+```
+mkdir src
+cd src
+git clone https://github.com/RaphaelLima123/FlipOn.git .
+```
 
 ## Instalar as dependências:
-1. pip install -r requirements/local.txt
+```
+pip install -r requirements/local.txt
+```
 
 ## Rodar as migrações e em seguida o server:
-1. python manage.py migrate
-2. python manage.py runserver
+```
+python manage.py migrate
+python manage.py runserver
+```
+
+## Usuário Windows
+## Criar um diretório para o projeto e instalar um ambiente virtual pyhton dentro:
+```
+mkdir project
+cd project
+python -m venv venv
+cd venv/scripts/
+./activate
+cd ../..
+```
+## Clonar o repositório:
+```
+git clone https://github.com/RaphaelLima123/FlipOn.git
+```
+
+## Instalar as dependências:
+```
+cd FlipOn
+pip install -r requirements/local.txt
+```
+
+## Rodar as migrações e em seguida o server:
+```
+python manage.py migrate
+python manage.py runserver
+```
