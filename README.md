@@ -5,7 +5,7 @@ Projeto vaga de estágio
 
 1. mkdir project
 2. cd project
-3. python3 -m venv venv
+3. python -m venv venv
 4. source venv/bin/activate
 
 ## Criar um diretório raiz e clonar o repositório:
